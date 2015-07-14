@@ -1,0 +1,82 @@
+/*
+Admin css
+*/
+
+.wp_rb_sections_list{}
+
+.wp_rb_sections_list .entries {
+  padding-top: 20px;
+}
+.wp_rb_sections_list .entry {
+  background: none repeat scroll 0 0 rgba(153, 153, 153, 0.2);
+  margin: 5px 0;
+  padding: 5px;
+  position: relative;
+}
+
+.wp_rb_sections_list .header {
+  position: relative;
+}
+
+.wp_rb_sections_list .header .section-display {
+  float: right;
+  margin-right: 20px;
+  margin-top: 2px;
+  position: relative;
+}
+
+.wp_rb_sections_list .entry .entry-remove, .wp_rb_sections_list  .section-remove{
+  background: none repeat scroll 0 0 rgb(249, 91, 14);
+  cursor: pointer;
+  height: 20px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 20px;
+}
+
+.wp_rb_sections_list .ui-sortable-helper {
+  border: 1px dashed rgb(153, 153, 153);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wp-rb-container{
+	width: 100%;
+	}
+
+.wp-rb.flat{}
+
+.wp-rb.flat .side-one {
+background: none repeat scroll 0 0 rgb(241, 241, 241);
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+}
+
+.wp-rb.flat .side-one .title {
+  font-size: 22px;
+  padding: 5px 0;
+  text-align: center;
+}
+
+
+.wp-rb.flat .side-one .details {
+  font-size: 12px;
+  padding: 5px;
+  text-align: center;
+}
+
+
+
+.wp-rb.flat .side-one .subtitle {
+  font-size: 14px;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.wp-rb.flat .side-one .social {
+  padding: 10px;
+}
+
+.wp-rb.flat .side-one .social .social-data {
+  padding: 3px 0;
+}
+
+.wp-rb.flat .side-one .social a {
+  text-decoration: none;
+}
+
+
+
+
+.wp-rb.flat .side-one .skill{
+	padding:10px;
+
+}
+
+.wp-rb.flat .side-one .skill .skill-data {
+  background: none repeat scroll 0 0 rgb(221, 221, 221);
+  font-size: 11px;
+  margin: 10px 0;
+}
+
+.wp-rb.flat .side-one .skill .skill-value {
+  background: none repeat scroll 0 0 rgb(83, 172, 255);
+  color: rgb(255, 255, 255);
+}
+
+.wp-rb.flat .side-one .contact-info {
+  padding: 10px;
+}
+
+.wp-rb.flat .side-one .contact-info .contact-data {
+  padding: 3px 0;
+}
+
+.wp-rb.flat .side-one .contact-info a {
+  text-decoration: none;
+}
+
+
+.wp-rb.flat .thumbnail {
+  max-height: 180px;
+  overflow: hidden;
+}
+.wp-rb.flat .thumbnail img {
+  border-radius: 0;
+  box-shadow: none;
+  width: 100%;
+}
+
+
+.wp-rb.flat .side-two {
+  display: inline-block;
+  width: 75%;
+}
+
+
+
+.wp-rb.flat .section {
+  background: none repeat scroll 0 0 rgb(241, 241, 241);
+  margin: 0 10px 20px;
+  padding: 12px;
+  text-align: left;
+}
+
+.wp-rb.flat .section .title {
+  border-bottom: 1px solid rgb(221, 221, 221);
+  font-size: 20px;
+}
+.wp-rb.flat .section .subtitle {
+  font-size: 14px;
+  font-style: italic;
+  padding: 10px 0;
+}
+
+.wp-rb.flat .section .details {
+  font-size: 13px;
+  padding: 10px 0;
+}
+
+
+.wp-rb.flat .section .entry {
+  border-left: 2px solid rgb(221, 221, 221);
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+
+.wp-rb.flat .section .entry .data {
+	font-size:12px;
+}
