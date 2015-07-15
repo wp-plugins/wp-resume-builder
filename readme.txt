@@ -34,6 +34,9 @@ WP Resume Builder allows you to create your perfect Resume/CV/Biodata via WordPr
 
 you can extend resume input fields by filter hook,
 we have following filter hook for resume admin input
+please see the screenshot for understand filter map 
+
+https://ps.w.org/wp-resume-builder/assets/screenshot-2.png
 
 * wp_rb_data_args
 * wp_rb_filter_sections
