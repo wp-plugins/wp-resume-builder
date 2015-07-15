@@ -14,8 +14,7 @@ class class_wp_rb_functions{
 	public function wp_rb_themes($themes = array()){
 
 			$themes = array(
-							'flat'=>'Flat',
-							'flat1'=>'Flat 1',			
+							'flat'=>'Flat',			
 							);
 			
 			foreach(apply_filters( 'wp_rb_themes', $themes ) as $theme_key=> $theme_name)
