@@ -30,7 +30,32 @@ WP Resume Builder allows you to create your perfect Resume/CV/Biodata via WordPr
 * Graphical(percentage bar) represantation for skill values.
 * Ajax add more section entry.
 
+<strong>Extensible support</strong>
+you can extend resume input fields by filter hook,
+we have following filter hook for resume admin input
 
+* wp_rb_data_args
+* wp_rb_filter_sections
+* wp_rb_filter_sections_args
+* wp_rb_section_properties
+
+for eaxample you can extend resume section by filter hook wp_rb_filter_sections() as follows
+in the same filter you can also remove any section by unset().
+`
+add_filter('wp_rb_filter_sections', 'wp_rb_sections_add');
+
+
+function wp_rb_sections_add($sections)
+	{
+		$sections_new = array_merge($sections, array("tour"=>"Tour"));
+		
+		//unset($sections_new['social']); // remove sections ex: social
+		
+		return $sections_new;
+	}
+`
+
+Please see the demo addon inside plugin folder "demo-addon" find the zip (wp-resume-builder-addon-filters.zip) file you can install as plugin and ready to customize.
 
 
 == Installation ==
