@@ -61,7 +61,7 @@ function wp_rb_sections_add($sections)
 
 Please see the demo addon inside plugin folder <b>"demo-addon"</b> find the zip (<b>wp-resume-builder-addon-filters.zip</b>) file you can install as plugin and ready to customize.
 
-<strong>Extensible resume themes</strong>
+<strong>Extensible resume themes - (Premium Features)</strong>
 
 WP Resume Builder also support extend theme via addon support by filter hook, following filter hook are are using for creating theme
 
